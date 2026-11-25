@@ -1096,7 +1096,22 @@ html.gated-scroll{scroll-behavior:auto}
 #portfolio #education .section-head{margin-bottom:24px}
 @media(max-width:700px){#portfolio #education .section-head{margin-bottom:20px}#journey .portrait-frost{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}}
 @media(prefers-reduced-motion:reduce){#journey .portrait-frost,#journey .portrait-sheen{display:none}}
-</style></head>
+</style><style>
+/* Career preview: independent work is visually distinct from employment. */
+#experience .venture-history{margin-top:clamp(36px,5vw,64px);padding-top:clamp(27px,4vw,44px);border-top:1px solid rgba(150,175,211,.17)}
+#experience .venture-heading{margin-bottom:24px}
+#experience .venture-heading h3{font-family:Sora,Inter,sans-serif;font-size:clamp(22px,3vw,34px);letter-spacing:-.035em;line-height:1.25;margin:8px 0 0;color:var(--txt)}
+#experience .venture-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+#experience .venture-card{min-width:0;position:relative;padding:clamp(20px,3vw,30px);border:1px solid rgba(158,184,225,.18);border-radius:20px;background:radial-gradient(ellipse at 100% 0%,rgba(62,104,177,.12),transparent 60%),linear-gradient(145deg,#111a2b,#0c111c);display:flex;flex-direction:column;align-items:flex-start;overflow:hidden}
+#experience .venture-icon{display:grid;place-items:center;width:42px;height:42px;border:1px solid rgba(145,182,233,.23);border-radius:12px;color:#9dc7ff;background:rgba(119,167,236,.08);margin-bottom:20px}
+#experience .venture-icon svg{width:23px;height:23px}
+#experience .venture-kicker{color:#9fbce0;font-size:10px;letter-spacing:.13em;font-weight:600;line-height:1.5;margin-bottom:8px}
+#experience .venture-card h4{font-family:Sora,Inter,sans-serif;font-weight:600;font-size:clamp(17px,2vw,22px);line-height:1.35;margin:0 0 5px;color:#f0f4fd;letter-spacing:-.02em}
+#experience .venture-company{color:#d8bd8d;font-size:14px;font-weight:500;margin-bottom:12px}
+#experience .venture-card p{margin:0;color:var(--muted);font-size:.92rem;line-height:1.65;overflow-wrap:break-word}
+@media(max-width:700px){#experience .venture-grid{grid-template-columns:minmax(0,1fr);gap:12px}#experience .venture-heading{margin-bottom:17px}#experience .venture-card{border-radius:17px;padding:20px}#experience .venture-card p{font-size:.85rem}#experience .venture-icon{margin-bottom:14px}}
+</style>
+</head>
 <body><a class="skip" href="#portfolio">Skip immersive introduction</a>
 <div id="experience-flow"><div id="journey"><div aria-label="Zain El immersive portfolio" class="stage" id="stage">
 <canvas aria-hidden="true" id="space"></canvas><div aria-hidden="true" class="visual-well" id="visual-well">
@@ -1164,7 +1179,25 @@ html.gated-scroll{scroll-behavior:auto}
 <div class="section-head reveal">
 <div><span class="section-kicker">06 / THE JOURNEY</span><h2>Career history.</h2></div>
 </div>
-<div class="timeline"><div class="timeline-item reveal current-role"><span class="timeline-date">Apr 2026 – Present</span><div class="timeline-role">Executive Officer (Pegawai Eksekutif)</div><div class="timeline-company">Pejabat Parlimen Batang Sadong</div><div class="timeline-desc"><ul><li>Prevented welfare fund misallocation across 3 DUN constituencies by implementing a data-driven framework that saved 35% of community allocation from leakages.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Sep 2025 – Mar 2026</span><div class="timeline-role">Senior Marketing Coordinator &amp; Strategist</div><div class="timeline-company">Blitz Sdn Bhd</div><div class="timeline-desc"><ul><li>Recovered 28% in lost sales revenue within 6 months by executing targeted marketing campaigns and repositioning underperforming product lines.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Aug 2024 – Sep 2025</span><div class="timeline-role">Senior Marketing &amp; Media Specialist</div><div class="timeline-company">Kiraini Excel Sdn Bhd</div><div class="timeline-desc"><ul><li>Cut ad budget waste by 20% by fixing conversion leaks in the sales funnel and eliminating low-performing ad placements.</li><li>Rescued declining social media reach, driving a 3x surge in engagement by replacing weak content with high-retention visual storytelling.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Feb 2023 – Feb 2025</span><div class="timeline-role">Performance Marketing Analyst</div><div class="timeline-company">JT Jaya Sdn Bhd • Remote</div><div class="timeline-desc"><ul><li>Lifted conversion rates by 22% through continuous A/B testing on checkout pages, recovering high-intent website traffic.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Jul 2023 – Sep 2023</span><div class="timeline-role">Media Officer – Contract (Pegawai Media)</div><div class="timeline-company">Pejabat ADUN Melaka</div><div class="timeline-desc"><ul><li>Managed social media, content planning and marketing for an ADUN’s public image.</li><li>Protected brand image during critical coverage with a rapid-response media plan, turning public sentiment 50% more positive.</li></ul></div></div></div>
+<div class="timeline"><div class="timeline-item reveal current-role"><span class="timeline-date">Dec 2026 – Present</span><div class="timeline-role">Head of Marketing, Sales &amp; Creative</div><div class="timeline-company">Rayxen Tech</div><div class="timeline-desc"><ul><li>Drive profitable revenue growth and customer acquisition efficiency, measured through qualified sales pipeline, conversion rates, customer acquisition cost and revenue contribution, by unifying data-driven marketing, sales execution and high-impact creative strategy.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Apr 2026 – Dec 2026</span><div class="timeline-role">Executive Officer (Pegawai Eksekutif)</div><div class="timeline-company">Pejabat Parlimen Batang Sadong</div><div class="timeline-desc"><ul><li>Prevented welfare fund misallocation across 3 DUN constituencies by implementing a data-driven framework that saved 35% of community allocation from leakages.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Sep 2025 – Mar 2026</span><div class="timeline-role">Senior Marketing Coordinator &amp; Strategist</div><div class="timeline-company">Blitz Sdn Bhd</div><div class="timeline-desc"><ul><li>Recovered 28% in lost sales revenue within 6 months by executing targeted marketing campaigns and repositioning underperforming product lines.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Aug 2024 – Sep 2025</span><div class="timeline-role">Senior Marketing &amp; Media Specialist</div><div class="timeline-company">Kiraini Excel Sdn Bhd</div><div class="timeline-desc"><ul><li>Cut ad budget waste by 20% by fixing conversion leaks in the sales funnel and eliminating low-performing ad placements.</li><li>Rescued declining social media reach, driving a 3x surge in engagement by replacing weak content with high-retention visual storytelling.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Feb 2023 – Feb 2025</span><div class="timeline-role">Performance Marketing Analyst</div><div class="timeline-company">JT Jaya Sdn Bhd • Remote</div><div class="timeline-desc"><ul><li>Lifted conversion rates by 22% through continuous A/B testing on checkout pages, recovering high-intent website traffic.</li></ul></div></div><div class="timeline-item reveal"><span class="timeline-date">Jul 2023 – Sep 2023</span><div class="timeline-role">Media Officer – Contract (Pegawai Media)</div><div class="timeline-company">Pejabat ADUN Melaka</div><div class="timeline-desc"><ul><li>Managed social media, content planning and marketing for an ADUN’s public image.</li><li>Protected brand image during critical coverage with a rapid-response media plan, turning public sentiment 50% more positive.</li></ul></div></div></div>
+<div class="venture-history" aria-labelledby="venture-title">
+  <div class="venture-heading reveal"><span class="section-kicker">INDEPENDENT VENTURES</span><h3 id="venture-title">Professional ventures &amp; projects.</h3></div>
+  <div class="venture-grid">
+    <article class="venture-card reveal">
+      <div class="venture-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h18v10H3zM3 10l-1-4 17-4 1 4-17 4M6 5l4 3m3-5 4 3"/><path d="m10 13 5 2.5-5 2.5z"/></svg></div>
+      <span class="venture-kicker">CREATIVE PRODUCTION</span>
+      <h4>Cinematographer</h4><div class="venture-company">Zainth &amp; Vinz Co.</div>
+      <p>Create cinematic brand stories designed to strengthen audience retention, engagement and commercial impact by combining creative direction, professional cinematography and high-end post-production.</p>
+    </article>
+    <article class="venture-card reveal">
+      <div class="venture-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m9 9-3 3 3 3m6-6 3 3-3 3m-2-7-2 8"/></svg></div>
+      <span class="venture-kicker">DIGITAL PRODUCT DEVELOPMENT</span>
+      <h4>Web &amp; App Builder</h4><div class="venture-company">Zainth Labs</div>
+      <p>Transform complex business challenges into fast, intuitive and scalable digital products, with success evaluated through usability, performance and conversion, by integrating product strategy, modern web engineering and workflow automation.</p>
+    </article>
+  </div>
+</div>
+
 </div>
 </section><section id="education"><div class="container"><div class="section-head reveal"><div><span class="section-kicker">07 / THE ACADEMIC JOURNEY</span><h2>Education.</h2></div></div><div class="edu-card reveal">
 <div class="edu-item">
@@ -1469,7 +1502,7 @@ $('motion-status').textContent='Spatial motion';resize();p=target;requestAnimati
         title: "Constituency & Public Service Management",
         body: `<p><strong>Role:</strong> Executive Officer (Pegawai Eksekutif)</p>
                <p><strong>Organisation:</strong> Pejabat Parlimen Batang Sadong</p>
-               <p>Apr 2026 – Present</p>
+               <p>Apr 2026 – Dec 2026</p>
                <p>Implemented a data-driven framework to prevent welfare fund misallocation across three DUN constituencies.</p>
                <ul><li>Saved 35% of community allocation from leakages.</li></ul>`
       },
